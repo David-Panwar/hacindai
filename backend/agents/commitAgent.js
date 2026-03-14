@@ -7,7 +7,7 @@ async function commitFix(repoDir, branchName) {
     const git = simpleGit(repoDir);
 
     const username = "David-Panwar";
-    const token = "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";
+    const token = "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";
     console.log(username + token);
 
     const authRepoUrl =

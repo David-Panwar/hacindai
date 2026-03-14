@@ -9,7 +9,7 @@ export default function CIDashboard() {
 
     const fetchStatus = async () => {
       try {
-        const res = await fetch("http://localhost:5000/ci-status");
+        const res = await fetch("https://hacindia.onrender.com/ci-status");
         const data = await res.json();
         setStatus(data);
       } catch (err) {
@@ -19,7 +19,7 @@ export default function CIDashboard() {
 
     const fetchLogs = async () => {
       try {
-        const res = await fetch("http://localhost:5000/ci-logs");
+        const res = await fetch("https://hacindia.onrender.com/ci-logs");
         const data = await res.text();
         setLogs(data);
       } catch (err) {

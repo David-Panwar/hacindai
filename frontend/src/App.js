@@ -11,11 +11,10 @@ function App() {
       <Dashboard/>
 
      
-"hello"
+
 
 {/* <CIDashboard/> */}
-
-heelloo ""
+<hr/>
 
 <AgentDashboard/>
 
